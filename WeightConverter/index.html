@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weight Converter</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css"
+        rel="stylesheet">
+        <!--<link href="css/style.css" rel="stylesheet">-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="notification">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <h1 class="title has-text-centered">Conversor de Medidas</h1>
+                        <h2 class="subtitle has-text-centered">Feito para treinar Vanilla JS e Bulma.io</h2>
+
+                        <div class="control">
+                            <input type="number"
+                            class="input is-focused"
+                            placeholder="Digite um valor em gramas para converter..."
+                            id="inputNumber">
+                            <p class="help">Só funciona com números, broder.</p>
+                        </div>
+                        <br>
+                        
+                        <div id="output">
+                            <article class="message is-primary">
+                                <div class="message-header">
+                                    <p>Quilos:</p>                                
+                                </div>
+
+                                <div id="kilosP" class="message-body">
+                                    <!-- Valor Convertido aqui -->
+                                 </div>
+                            </article>
+            
+                            <article class="message is-danger">
+                                <div class="message-header">
+                                    <p>Libras:</p>                                
+                                </div>
+
+                                <div id="librasP" class="message-body">
+                                    <!-- Valor Convertido aqui -->
+                                </div>
+                            </article>
+                        </div>
+
+                        <!--<article class="message is-primary">
+                            <div class="message-header">
+                                <p>Quilos:</p>                                
+                            </div>
+                            <div id="kilosP" class="message-body">
+                                
+                            </div>
+                        </article>
+
+                        <article class="message is-danger">
+                            <div class="message-header">
+                                <p>Libras:</p>                                
+                            </div>
+                            <div id="librasP" class="message-body">
+                                
+                            </div>
+                        </article> -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
