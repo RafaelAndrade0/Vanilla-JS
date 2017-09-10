@@ -17,8 +17,9 @@ function changeImage () {
     } else {
         i = 0;
     }
-
+    console.log(i);
     setTimeout("changeImage()", time);
 }
 
 window.onload = changeImage;
+//changeImage();
